@@ -5,8 +5,11 @@
 
 ---
 
+<br>
+
 ### Rozdział pierwszy: Wstęp
 
+<br>
 
 1. Teoria baz danych.
 
@@ -18,3 +21,36 @@
 
 5. [Wynik testu z rozdziału pierwszego.](https://github.com/git-atoms/SQL-training-01/blob/master/Testy/01%20Chapter%20One.jpg)
 
+<br>
+
+> ### Podsumowanie:<br>
+> + DQL (**D**ata **Q**uery **L**anguage)<br>
+Odpytywanie: SELECT, WHERE, GROUP BY
+>
+> + DML (**D**ata **M**anipulation **L**anguage)<br>
+Modyfikacja: UPDATE, INSERT, DELETE
+>
+> + DDL (**D**ata **D**efinition **L**anguage)<br>
+Tworzenie i modyfikacja obiektów: CREATE TABLE, ALTER VIEW, DROP
+>
+> + DCL (**D**ata **C**ontrol **L**anguage)<br>
+Kontrola uprawnień: GRANT, DENY, REVOKE
+>
+> + TCL (**T**ransaction **C**ontrol **L**anguage)<br>
+Obsługa transakcji: COMMIT, BEGIN TRAN, ROLLBACK
+
+
+<br>
+
+
+---
+
+<br>
+
+### Rozdział drugi: Odpytywanie danych
+
+<br>
+
+1. SELECT - Wybór kolumn
+
+2. SELECT - Wybór kolumn i modyfikacje
