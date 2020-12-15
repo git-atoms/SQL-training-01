@@ -23,7 +23,24 @@
 
 <br>
 
-> ### Podsumowanie:<br>
+> ### Podsumowanie składni SQL:
+> + **SELECT** - wybór tabel, kolumn (podaje się konkretne kolumny po nazwie albo * jako wszystko)
+>
+> + **FROM** - źródło danych bo może być z jednej tabeli, a może być z kilku tabel (np. FROM jedna tabel lub FROM kilka tabel)
+>
+> + **WHERE** - polecenie filtrujące przed zaimportowaniem danych (chcemy mieć te rekordy ale spełniające taki, a taki warunek)
+>
+> + **GROUP BY** - grupowanie danych: kiedy odfiltrowaliśmy już to co chcieliśmy, to teraz grupujemy te dane po konkretnej kolumnie (można też używać tu funkcji agregujących takich jak SUMA, MIN, MAX)
+>
+> + **HAVING** - filtrowanie ale (grup!!!) i kiedy już zaimportujemy dane i chcemy odrzucić pewne grupy, które się potworzyły na skutek importu SELECT
+>
+> + **ORDER BY** - sortowanie: rosnąco lub malejąco po konkretnych kolumnach
+
+
+<br>
+
+
+> ### Podsumowanie podzbiorów SQL:<br>
 > + DQL (**D**ata **Q**uery **L**anguage)<br>
 Odpytywanie: SELECT, WHERE, GROUP BY
 >
