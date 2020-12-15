@@ -38,7 +38,10 @@ Kontrola uprawnień: GRANT, DENY, REVOKE
 >
 > + TCL (**T**ransaction **C**ontrol **L**anguage)<br>
 Obsługa transakcji: COMMIT, BEGIN TRAN, ROLLBACK
+>
+<br>
 
+> Więcej o podzbiorach SQL pod tym [linkiem](https://pl.wikipedia.org/wiki/SQL).
 
 <br>
 
