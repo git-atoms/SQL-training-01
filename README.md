@@ -1,3 +1,6 @@
-# SQL - język zapytań do bay danych SQL Server
+## SQL - język zapytań do bay danych SQL Server
 
-## 
+## (Samokształcenie: kurs z Udemy)
+
+---
+
