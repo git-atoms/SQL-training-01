@@ -16,4 +16,5 @@
 
 4. Import bazy AdventureWorks2014.
 
-5. Test z rozdziału pierwszego.
+5. Test z rozdziału pierwszego.<br>
+<https://github.com/git-atoms/SQL-training-01/blob/master/Testy/01%20Chapter%20One.jpg>
