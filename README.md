@@ -8,12 +8,12 @@
 ### Rozdział pierwszy: Wstęp
 
 
-1. Teoria baz danych
+1. Teoria baz danych.
 
-2. Język zapytań SQL
+2. Język zapytań SQL.
 
-3. Instalacja SQL Server i SQL Server Management Studio (SSMS)
+3. Instalacja SQL Server i SQL Server Management Studio (SSMS).
 
-4. Import bazy AdventureWorks2014
+4. Import bazy AdventureWorks2014.
 
-5. Test z 
+5. Test z rozdziału pierwszego.
