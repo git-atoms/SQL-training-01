@@ -48,6 +48,7 @@
 
 
 <br>
+<br>
 
 
 > ### Podsumowanie podzbiorów SQL:<br>
