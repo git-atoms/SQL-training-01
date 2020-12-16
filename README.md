@@ -71,7 +71,7 @@ Obsługa transakcji: COMMIT, BEGIN TRAN, ROLLBACK
 
 <br>
 
-```sql
+
 
 1. SELECT - Wybór kolumn
 
