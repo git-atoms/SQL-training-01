@@ -2,7 +2,7 @@
 
 *(Samokształcenie: kurs z Udemy)*
 
-```SQL
+
 
 ---
 
