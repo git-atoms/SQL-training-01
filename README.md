@@ -3,7 +3,6 @@
 *(Samokształcenie: kurs z Udemy)*
 
 
-
 ---
 
 <br>
