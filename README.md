@@ -2,6 +2,7 @@
 
 *(Samokształcenie: kurs z Udemy)*
 
+```SQL
 
 ---
 
@@ -30,7 +31,7 @@
 >
 > + **WHERE** - polecenie filtrujące przed zaimportowaniem danych (chcemy mieć te rekordy ale spełniające taki, a taki warunek)
 >
-> + **GROUP BY** - grupowanie danych: kiedy odfiltrowaliśmy już to co chcieliśmy, to teraz grupujemy te dane po konkretnej kolumnie (można też używać tu funkcji agregujących takich jak SUMA, MIN, MAX)
+> + **GROUP BY** - grupowanie danych: kiedy odfiltrowaliśmy już to co chcieliśmy, to teraz grupujemy te dane po konkretnej kolumnie (można też używać tu funkcji agregujących takich jak SUM, MIN, MAX)
 >
 > + **HAVING** - filtrowanie ale (grup!!!) i kiedy już zaimportujemy dane i chcemy odrzucić pewne grupy, które się potworzyły na skutek importu SELECT
 >
@@ -71,6 +72,26 @@ Obsługa transakcji: COMMIT, BEGIN TRAN, ROLLBACK
 
 <br>
 
+```sql
+
 1. SELECT - Wybór kolumn
+
+> ### Podsumowanie:
+>
+> + SELECT TOP - Wyświetla wyniki nie tylko "od góry" ale jeśli posortuję ORDER BY DESC to wyświetli podaną ilość "od dołu".
+>
+> + SELECT DISTINCT - Wyświetla wartość unikalną danego zapytania, np. jeśli jest <br>
+    - Jan Kowalski,
+    <br>
+    - Mateusz Kowalski,
+    <br>
+    - Andrzej Kowalski, itd...
+><br>
+> to
+<br>
+SELECT DISTINCT przy "ORDER BY Nazwisko" wyświetli jako wynik "Kowalski" ale tylko 1 raz.
+
+<br>
+
 
 2. SELECT - Wybór kolumn i modyfikacje
