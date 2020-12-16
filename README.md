@@ -26,13 +26,23 @@
 > ### Podsumowanie składni SQL:
 > + **SELECT** - wybór tabel, kolumn (podaje się konkretne kolumny po nazwie albo * jako wszystko)
 >
+> <br>
+>
 > + **FROM** - źródło danych bo może być z jednej tabeli, a może być z kilku tabel (np. FROM jedna tabel lub FROM kilka tabel)
+>
+> <br>
 >
 > + **WHERE** - polecenie filtrujące przed zaimportowaniem danych (chcemy mieć te rekordy ale spełniające taki, a taki warunek)
 >
+> <br>
+>
 > + **GROUP BY** - grupowanie danych: kiedy odfiltrowaliśmy już to co chcieliśmy, to teraz grupujemy te dane po konkretnej kolumnie (można też używać tu funkcji agregujących takich jak SUM, MIN, MAX)
 >
+> <br>
+>
 > + **HAVING** - filtrowanie ale (grup!!!) i kiedy już zaimportujemy dane i chcemy odrzucić pewne grupy, które się potworzyły na skutek importu SELECT
+>
+> <br>
 >
 > + **ORDER BY** - sortowanie: rosnąco lub malejąco po konkretnych kolumnach
 
@@ -44,19 +54,26 @@
 > + DQL (**D**ata **Q**uery **L**anguage)<br>
 Odpytywanie: SELECT, WHERE, GROUP BY
 >
+> <br>
+>
 > + DML (**D**ata **M**anipulation **L**anguage)<br>
 Modyfikacja: UPDATE, INSERT, DELETE
+>
+> <br>
 >
 > + DDL (**D**ata **D**efinition **L**anguage)<br>
 Tworzenie i modyfikacja obiektów: CREATE TABLE, ALTER VIEW, DROP
 >
+> <br>
+>
 > + DCL (**D**ata **C**ontrol **L**anguage)<br>
 Kontrola uprawnień: GRANT, DENY, REVOKE
+>
+> <br>
 >
 > + TCL (**T**ransaction **C**ontrol **L**anguage)<br>
 Obsługa transakcji: COMMIT, BEGIN TRAN, ROLLBACK
 >
-<br>
 
 > Więcej o podzbiorach SQL pod tym [linkiem](https://pl.wikipedia.org/wiki/SQL).
 
@@ -75,22 +92,23 @@ Obsługa transakcji: COMMIT, BEGIN TRAN, ROLLBACK
 
 1. SELECT - Wybór kolumn
 
+<br>
+
 > ### Podsumowanie:
 >
-> + SELECT TOP - Wyświetla wyniki nie tylko "od góry" ale jeśli posortuję ORDER BY DESC to wyświetli podaną ilość "od dołu".
+> + **SELECT TOP** - Wyświetla wyniki nie tylko "od góry" ale jeśli posortuję ORDER BY DESC to wyświetli podaną ilość "od dołu".
 >
-> + SELECT DISTINCT - Wyświetla wartość unikalną danego zapytania, np. jeśli jest <br>
+> <br>
+>
+> + **SELECT DISTINCT** - Wyświetla wartość unikalną danego zapytania, np. jeśli jest <br>
     - Jan Kowalski,
     <br>
     - Mateusz Kowalski,
     <br>
     - Andrzej Kowalski, itd...
 ><br>
-> to
-<br>
-SELECT DISTINCT przy "ORDER BY Nazwisko" wyświetli jako wynik "Kowalski" ale tylko 1 raz.
+> to SELECT DISTINCT przy sortowaniu "ORDER BY Nazwisko" wyświetli jako wynik "Kowalski" ale tylko 1 raz.
 
 <br>
-
 
 2. SELECT - Wybór kolumn i modyfikacje
