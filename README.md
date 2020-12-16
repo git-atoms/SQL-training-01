@@ -101,14 +101,14 @@ Obsługa transakcji: COMMIT, BEGIN TRAN, ROLLBACK
 >
 > <br>
 >
-> + **SELECT DISTINCT** - Wyświetla wartość unikalną danego zapytania, np. jeśli jest <br>
+> + [**SELECT DISTINCT**](https://github.com/git-atoms/SQL-training-01/blob/master/Query%20%26%20Printscreen/%23com%20Select%20Distinct.sql) (link to query) - Wyświetla wartość unikalną danego zapytania, np. jeśli jest <br>
     - Jan Kowalski,
     <br>
     - Mateusz Kowalski,
     <br>
     - Andrzej Kowalski, itd...
 ><br>
-> to SELECT DISTINCT przy sortowaniu "ORDER BY Nazwisko" wyświetli jako wynik "Kowalski" ale tylko 1 raz.
+> to SELECT DISTINCT przy sortowaniu "ORDER BY Nazwisko" wyświetli jako wynik "Kowalski" ale już tylko 1 raz. Więcej [tutaj](https://github.com/git-atoms/SQL-training-01/blob/master/Query%20%26%20Printscreen/%23com%20Select%20Distinct.jpg).
 
 <br>
 
