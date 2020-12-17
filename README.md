@@ -108,8 +108,19 @@ Obsługa transakcji: COMMIT, BEGIN TRAN, ROLLBACK
     <br>
     - Andrzej Kowalski, itd...
 ><br>
-> to SELECT DISTINCT przy sortowaniu "ORDER BY Nazwisko" wyświetli jako wynik "Kowalski" ale już tylko 1 raz. Więcej [tutaj](https://github.com/git-atoms/SQL-training-01/blob/master/Query%20%26%20Printscreen/%23com%20Select%20Distinct.jpg).
+> to SELECT DISTINCT przy sortowaniu "ORDER BY Nazwisko" wyświetli jako wynik "Kowalski" ale już tylko 1 raz.<br>
+>
+> Więcej [pod tym linkiem](https://github.com/git-atoms/SQL-training-01/blob/master/Query%20%26%20Printscreen/%23com%20Select%20Distinct.jpg).
 
 <br>
 
 2. SELECT - Wybór kolumn i modyfikacje
+
+<br>
+
+> ### Podsumowanie:
+>
+> + **SELECT [kolumna_1] + ' is a ' + [kolumna_2]** - Wyświetla łączone zapytanie (robi to w jednej kolumnie) ale dane w łączonej kolumnie muszą być tego samego typu.
+<br>
+>
+> Więcej [pod tym linkiem](https://github.com/git-atoms/SQL-training-01/blob/master/Query%20%26%20Printscreen/%23com%20Select%20%2B%20%5Btext%5D%20%2B.jpg), a tutaj [link do tego zapytania](https://github.com/git-atoms/SQL-training-01/blob/master/Query%20%26%20Printscreen/%23com%20Select%20%2B%20%5Btext%5D%20%2B.sql).
