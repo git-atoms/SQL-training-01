@@ -132,4 +132,4 @@ a tutaj bezpośredni [link do tego zapytania](https://github.com/git-atoms/SQL-t
 
 > + **SELECT substring**(wyrażenie/kolumna, start, długość).
 >
-> [Printscreen](https://github.com/git-atoms/SQL-training-01/blob/master/Query%20%26%20Printscreen/%23com%20Substring.jpg) z wyjaśnieniem do tego zapytania oraz samo [zapytanie](https://github.com/git-atoms/SQL-training-01/blob/master/Query%20%26%20Printscreen/%23com%20Select%20Distinct.sql)
+> [Printscreen](https://github.com/git-atoms/SQL-training-01/blob/master/Query%20%26%20Printscreen/%23com%20Substring.jpg) z wyjaśnieniem do tego zapytania oraz samo [zapytanie](https://github.com/git-atoms/SQL-training-01/blob/master/Query%20%26%20Printscreen/%23com%20SUBSTRING.sql)
