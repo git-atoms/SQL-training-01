@@ -126,4 +126,4 @@ Obsługa transakcji: COMMIT, BEGIN TRAN, ROLLBACK
 > Printscreen do tej konkatenacji z opisem [pod tym linkiem](https://github.com/git-atoms/SQL-training-01/blob/master/Query%20%26%20Printscreen/%23com%20Select%20%2B%20%5Btext%5D%20%2B.jpg), 
 a tutaj bezpośredni [link do tego zapytania](https://github.com/git-atoms/SQL-training-01/blob/master/Query%20%26%20Printscreen/%23com%20Select%20%2B%20%5Btext%5D%20%2B.sql).
 >
-> Chcesz się dowiedzieć co to "[konkatenacja](https://sites.google.com/site/leksykonsql/funkcje-tekstowe/laczenie-ciagow-tekstowych)"?
+> Chcesz się dowiedzieć co to jest [konkatenacja](https://sites.google.com/site/leksykonsql/funkcje-tekstowe/laczenie-ciagow-tekstowych)?
