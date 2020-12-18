@@ -1,4 +1,7 @@
-SELECT FirstName +' | tutaj jest odst�p pomi�dzy wynikami zapytania | '+ LastName as 'Imi� i nazwisko'
+SELECT
+FirstName
+    +' | tutaj jest odstęp pomiędzy wynikami zapytania | '
+    + LastName as 'Imię i nazwisko'
 
 FROM
 Person.Person
