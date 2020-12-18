@@ -1,7 +1,7 @@
-select FirstName +' | tutaj jest odstêp pomiêdzy wynikami zapytania | '+ LastName as 'Imiê i nazwisko'
+SELECT FirstName +' | tutaj jest odstï¿½p pomiï¿½dzy wynikami zapytania | '+ LastName as 'Imiï¿½ i nazwisko'
 
-from
+FROM
 Person.Person
 
-order by
+ORDER BY
 FirstName
