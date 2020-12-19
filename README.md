@@ -75,8 +75,8 @@ Kontrola uprawnień: GRANT, DENY, REVOKE
 > + TCL (**T**ransaction **C**ontrol **L**anguage)<br>
 Obsługa transakcji: COMMIT, BEGIN TRAN, ROLLBACK
 >
-
-> Więcej o podzbiorach SQL pod tym [linkiem](https://pl.wikipedia.org/wiki/SQL).
+>
+> (_Więcej o podzbiorach SQL pod tym [linkiem](https://pl.wikipedia.org/wiki/SQL)_)
 
 <br>
 
@@ -110,7 +110,7 @@ Obsługa transakcji: COMMIT, BEGIN TRAN, ROLLBACK
 ><br>
 > to SELECT DISTINCT przy sortowaniu "ORDER BY Nazwisko" wyświetli jako wynik "Kowalski" ale już tylko 1 raz.<br>
 >
-> Więcej [pod tym linkiem](https://github.com/git-atoms/SQL-training-01/blob/master/Query%20%26%20Printscreen/%23com%20Select%20Distinct.jpg).
+> (_Więcej [pod tym linkiem](https://github.com/git-atoms/SQL-training-01/blob/master/Query%20%26%20Printscreen/%23com%20Select%20Distinct.jpg)_)
 
 <br>
 
@@ -127,18 +127,27 @@ a tutaj bezpośredni [link do tego zapytania](https://github.com/git-atoms/SQL-t
 >
 > (_Chcesz się dowiedzieć co to jest [konkatenacja](https://sites.google.com/site/leksykonsql/funkcje-tekstowe/laczenie-ciagow-tekstowych)?_)
 >
+>
 ><br>
-
+>
+>
 > + **SELECT SUBSTRING**(wyrażenie/kolumna, start, długość).
 >
-> [Printscreen](https://github.com/git-atoms/SQL-training-01/blob/master/Query%20%26%20Printscreen/%23com%20Substring.jpg) z wyjaśnieniem do tego zapytania oraz samo [zapytanie](https://github.com/git-atoms/SQL-training-01/blob/master/Query%20%26%20Printscreen/%23com%20SUBSTRING.sql)
+> (_[Printscreen](https://github.com/git-atoms/SQL-training-01/blob/master/Query%20%26%20Printscreen/%23com%20Substring.jpg) z wyjaśnieniem do tego zapytania oraz samo [zapytanie](https://github.com/git-atoms/SQL-training-01/blob/master/Query%20%26%20Printscreen/%23com%20SUBSTRING.sql)_)
+>
 >
 > <br>
+>
+>
 >
 > + **CAST(**[kolumna/wyrażenie] **AS** [typ_danych]**)** <br>
 >
 > vs <br>
 >
 > + **CONVERT(**[typ_danych], [kolumna/wyrażenie]**)** <br>
-
-> [Printscreen](https://github.com/git-atoms/SQL-training-01/blob/master/Query%20%26%20Printscreen/%23com%20Cast%20vs%20Convert.jpg) wraz z CAST vs CONVERT [query](https://github.com/git-atoms/SQL-training-01/blob/master/Query%20%26%20Printscreen/%23com%20Cast%20vs%20Convert.sql) są tutaj.
+>
+> (_[Printscreen](https://github.com/git-atoms/SQL-training-01/blob/master/Query%20%26%20Printscreen/%23com%20Cast%20vs%20Convert.jpg) oraz CAST vs CONVERT [query](https://github.com/git-atoms/SQL-training-01/blob/master/Query%20%26%20Printscreen/%23com%20Cast%20vs%20Convert.sql) są tutaj._) <br>
+>
+><br>
+>
+> + 
