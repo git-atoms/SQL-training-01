@@ -135,4 +135,6 @@ a tutaj bezpośredni [link do tego zapytania](https://github.com/git-atoms/SQL-t
 >
 > <br>
 >
->**CAST([kolumna] AS [typ_danych])**
+> + **CAST([kolumna/wyrażenie] AS [typ_danych])** <br>
+> vs <br>
+> + **CONVERT([typ_danych], [kolumna/wyrażenie])**
