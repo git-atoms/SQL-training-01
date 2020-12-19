@@ -136,10 +136,9 @@ a tutaj bezpośredni [link do tego zapytania](https://github.com/git-atoms/SQL-t
 > <br>
 >
 > + **CAST(**[kolumna/wyrażenie] **AS** [typ_danych]**)** <br>
-> Przykład CAST (printscreen i sql-query) [tutaj]()
-> <br>
 >
 > vs <br>
 >
 > + **CONVERT(**[typ_danych], [kolumna/wyrażenie]**)** <br>
-> Przykład CONVERT (printscreen i sql-query) [tutaj]()
+
+> [Printscreen](https://github.com/git-atoms/SQL-training-01/blob/master/Query%20%26%20Printscreen/%23com%20Cast%20vs%20Convert.jpg) wraz z CAST vs CONVERT [query](https://github.com/git-atoms/SQL-training-01/blob/master/Query%20%26%20Printscreen/%23com%20Cast%20vs%20Convert.sql) są tutaj.
