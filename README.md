@@ -129,12 +129,17 @@ a tutaj bezpośredni [link do tego zapytania](https://github.com/git-atoms/SQL-t
 >
 ><br>
 
-> + **SELECT substring**(wyrażenie/kolumna, start, długość).
+> + **SELECT SUBSTRING**(wyrażenie/kolumna, start, długość).
 >
 > [Printscreen](https://github.com/git-atoms/SQL-training-01/blob/master/Query%20%26%20Printscreen/%23com%20Substring.jpg) z wyjaśnieniem do tego zapytania oraz samo [zapytanie](https://github.com/git-atoms/SQL-training-01/blob/master/Query%20%26%20Printscreen/%23com%20SUBSTRING.sql)
 >
 > <br>
 >
-> + **CAST([kolumna/wyrażenie] AS [typ_danych])** <br>
+> + **CAST(**[kolumna/wyrażenie] **AS** [typ_danych]**)** <br>
+> Przykład CAST (printscreen i sql-query) [tutaj]()
+> <br>
+>
 > vs <br>
-> + **CONVERT([typ_danych], [kolumna/wyrażenie])**
+>
+> + **CONVERT(**[typ_danych], [kolumna/wyrażenie]**)** <br>
+> Przykład CONVERT (printscreen i sql-query) [tutaj]()

@@ -1,6 +1,6 @@
-select StoreID
---, cast(StoreID as float)/3 as 'Wartoœæ zmiennoprzecinkowa'
---, convert(float,StoreID)/3 as 'Wartoœæ zmiennoprzecinkowa'
+SELECT StoreID
+--, CAST(StoreID as float)/3 as 'WartoÅ›Ä‡ zmiennoprzecinkowa'
+--, CONVERT(float,StoreID)/3 as 'WartoÅ›Ä‡ zmiennoprzecinkowa'
 
-from
+FROM
 [AdventureWorks2014].Sales.Customer
