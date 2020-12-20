@@ -150,4 +150,6 @@ a tutaj bezpośredni [link do tego zapytania](https://github.com/git-atoms/SQL-t
 >
 ><br>
 >
-> + 
+
+
+3. WHERE - Filtrowanie danych
