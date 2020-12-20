@@ -131,7 +131,7 @@ a tutaj bezpośredni [link do tego zapytania](https://github.com/git-atoms/SQL-t
 ><br>
 >
 >
-> + **SELECT SUBSTRING**(wyrażenie/kolumna, start, długość).
+> + **SELECT SUBSTRING**(wyrażenie/kolumna, start, długość) - wyświetla wyrażenie od podanego przez nas znaku, przez podaną przez nas ilość znaków.
 >
 > (_[Printscreen](https://github.com/git-atoms/SQL-training-01/blob/master/Query%20%26%20Printscreen/%23com%20Substring.jpg) z wyjaśnieniem do tego zapytania oraz samo [zapytanie](https://github.com/git-atoms/SQL-training-01/blob/master/Query%20%26%20Printscreen/%23com%20SUBSTRING.sql)_)
 >
@@ -140,11 +140,11 @@ a tutaj bezpośredni [link do tego zapytania](https://github.com/git-atoms/SQL-t
 >
 >
 >
-> + **CAST(**[kolumna/wyrażenie] **AS** [typ_danych]**)** <br>
+> + **CAST(**[kolumna/wyrażenie] **AS** [typ_danych]**)** - zmienia typ danych dla podanego przez nas wyrażenia/kolumny (np. liczby całkowite zmienia w zmiennoprzecinkowe AS FLOAT) <br>
 >
 > vs <br>
 >
-> + **CONVERT(**[typ_danych], [kolumna/wyrażenie]**)** <br>
+> + **CONVERT(**[typ_danych], [kolumna/wyrażenie]**)** - też zmienia typ danych; inny sposób składni <br>
 >
 > (_[Printscreen](https://github.com/git-atoms/SQL-training-01/blob/master/Query%20%26%20Printscreen/%23com%20Cast%20vs%20Convert.jpg) oraz CAST vs CONVERT [query](https://github.com/git-atoms/SQL-training-01/blob/master/Query%20%26%20Printscreen/%23com%20Cast%20vs%20Convert.sql) są tutaj._) <br>
 >
