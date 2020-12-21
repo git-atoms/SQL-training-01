@@ -88,7 +88,7 @@ Obsługa transakcji: COMMIT, BEGIN TRAN, ROLLBACK
 ### Rozdział drugi: Odpytywanie danych
 
 <br>
-
+<br>
 
 
 1. SELECT - Wybór kolumn
@@ -112,6 +112,7 @@ Obsługa transakcji: COMMIT, BEGIN TRAN, ROLLBACK
 >
 > (_Więcej [pod tym linkiem](https://github.com/git-atoms/SQL-training-01/blob/master/Query%20%26%20Printscreen/%23com%20Select%20Distinct.jpg)_)
 
+<br>
 <br>
 
 2. SELECT - Wybór kolumn i modyfikacje
@@ -150,6 +151,19 @@ a tutaj bezpośredni [link do tego zapytania](https://github.com/git-atoms/SQL-t
 >
 ><br>
 >
-
+<br>
+<br>
 
 3. WHERE - Filtrowanie danych
+
+<br>
+
+> ### Podsumowanie:
+>
+> + Wielkość liter nie ma znaczenia przy imporcie zapytań bo **dane są niewrażliwe** na wielkość znaków (CI - Case Insensitive), chyba że w kolumnie są **dane wrażliwe** na wielkość znaków (CS - Case Sensitive).
+>
+><br>
+>
+> + Przy filtrowaniu WHERE możemy łączyć warunki przy pomocy operatorów AND czy OR [link do printscreena](https://github.com/git-atoms/SQL-training-01/blob/master/Query%20%26%20Printscreen/%23com%20Where%20And%20Or.jpg). A link do zapytania SQL [tutaj](https://github.com/git-atoms/SQL-training-01/blob/master/Query%20%26%20Printscreen/%23com%20Where%20And%20Or.sql).<br>
+>
+> Przy czym AND ma pierwszeństwo wykonania przed OR, chyba że zapytanie OR znajduje się w nawiasie, wówczas będzie wykonane jako pierwsze bo nawias jest przed AND.
