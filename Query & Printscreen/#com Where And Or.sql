@@ -17,5 +17,8 @@ HumanResources.Employee
 
 WHERE
 MaritalStatus = 'M'
-and HireDate > '20071111'
-or BirthDate < '19620913'
+
+AND HireDate > '20071111'
+OR BirthDate < '19620913'
+
+--AND (HireDate > '20071111' OR BirthDate < '19620913')
