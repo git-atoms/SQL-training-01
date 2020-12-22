@@ -167,3 +167,15 @@ a tutaj bezpośredni [link do tego zapytania](https://github.com/git-atoms/SQL-t
 > + Przy filtrowaniu WHERE możemy łączyć warunki przy pomocy operatorów AND czy OR [link do printscreena](https://github.com/git-atoms/SQL-training-01/blob/master/Query%20%26%20Printscreen/%23com%20Where%20And%20Or.jpg). A link do zapytania SQL [tutaj](https://github.com/git-atoms/SQL-training-01/blob/master/Query%20%26%20Printscreen/%23com%20Where%20And%20Or.sql).<br>
 >
 > Przy czym AND ma pierwszeństwo wykonania przed OR, chyba że zapytanie OR znajduje się w nawiasie, wówczas będzie wykonane jako pierwsze bo nawias jest przed AND.
+
+<br>
+<br>
+
+
+4. WHERE - Dodatkowe opcje filtrowania
+
+<br>
+
+> ### Podsumowanie:
+>
+> + WHERE
