@@ -1,18 +1,18 @@
-select distinct 
-FirstName as 'Imiê'
+SELECT DISTINCT
+FirstName AS 'ImiÄ™'
 ,
-LastName as 'Nazwisko'
+LastName AS 'Nazwisko'
 
-from [AdventureWorks2014].Person.Person
+FROM [AdventureWorks2014].Person.Person
 
-where
+WHERE
 LastName
-between 'b' and 'e'
---like 'e%o%'
+BETWEEN 'b' AND 'e'
+--LIKE 'e%o%'
 
 
-order by
+ORDER BY
 --FirstName
 --,
 LastName
-desc
+DESC
