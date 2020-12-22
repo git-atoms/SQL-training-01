@@ -1,5 +1,5 @@
 SELECT 
-FirstName AS 'Imiê'
+FirstName AS 'ImiÄ™'
 ,
 LastName AS 'Nazwisko'
 
