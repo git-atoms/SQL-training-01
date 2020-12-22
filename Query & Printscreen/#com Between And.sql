@@ -8,11 +8,10 @@ FROM [AdventureWorks2014].Person.Person
 WHERE
 LastName
 BETWEEN 'b' AND 'e'
---LIKE 'e%o%'
+
+
 
 
 ORDER BY
---FirstName
---,
 LastName
 DESC
