@@ -178,4 +178,6 @@ a tutaj bezpośredni [link do tego zapytania](https://github.com/git-atoms/SQL-t
 
 > ### Podsumowanie:
 >
-> + WHERE
+> + WHERE **BETWEEN** 'b' **AND** 'e'
+>
+> + WHERE **LIKE** 'e%'
