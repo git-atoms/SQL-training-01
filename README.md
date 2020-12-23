@@ -180,4 +180,4 @@ a tutaj bezpośredni [link do tego zapytania](https://github.com/git-atoms/SQL-t
 >
 > + WHERE [kolumna] **BETWEEN** 'b' **AND** 'e'
 >
-> + WHERE **LIKE** 'e%'
+> + WHERE [kolumna] **LIKE** 'e%'
