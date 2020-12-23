@@ -183,3 +183,5 @@ a tutaj bezpośredni [link do tego zapytania](https://github.com/git-atoms/SQL-t
 > + WHERE [kolumna] **LIKE** 'e%'
 >
 > + WHERE [kolumna] **IN(konkretne wartości)**
+>
+> + WHERE [kolumna] is nul/is not null
