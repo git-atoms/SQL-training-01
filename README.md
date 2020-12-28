@@ -196,4 +196,10 @@ a tutaj bezpośredni [link do tego zapytania](https://github.com/git-atoms/SQL-t
 >
 > + WHERE [kolumna] **IN(konkretne wartości)**
 >
+> Pozwala na import wyników, które spełniają warunek, np. IN(41,45,50) i tylko te >wyniki będą wyświetlone.
+>
+>
+> <br>
+>
+>
 > + WHERE [kolumna] is nul/is not null
