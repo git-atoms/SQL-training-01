@@ -180,6 +180,13 @@ a tutaj bezpośredni [link do tego zapytania](https://github.com/git-atoms/SQL-t
 >
 > + WHERE [kolumna] **BETWEEN** 'b' **AND** 'e'
 >
+> Printscreen z opisem Between...And [tutaj](https://github.com/git-atoms/SQL-training-01/blob/master/Query%20%26%20Printscreen/%23com%20Between%20And.jpg), a plik z zapytaniem SQL do tego przykładu [tutaj](https://github.com/git-atoms/SQL-training-01/blob/master/Query%20%26%20Printscreen/%23com%20Between%20And.sql).
+>
+>
+> <br>
+>
+>
+>
 > + WHERE [kolumna] **LIKE** 'e%' / '_e'
 >
 > + WHERE [kolumna] **IN(konkretne wartości)**
