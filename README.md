@@ -203,3 +203,10 @@ a tutaj bezpośredni [link do tego zapytania](https://github.com/git-atoms/SQL-t
 >
 >
 > + WHERE [kolumna] is nul/is not null
+>
+> Printscreen z opisem [tutaj](), a plik z zapytaniem SQL do tego przykładu [tutaj]().
+>
+>
+> <br>
+>
+>
