@@ -186,8 +186,13 @@ a tutaj bezpośredni [link do tego zapytania](https://github.com/git-atoms/SQL-t
 > <br>
 >
 >
->
 > + WHERE [kolumna] **LIKE** 'e%' / '_e'
+>
+> Printscreen z opisem Like [tutaj](https://github.com/git-atoms/SQL-training-01/blob/master/Query%20%26%20Printscreen/%23com%20Like.jpg), a plik z zapytaniem SQL do tego przykładu [tutaj](https://github.com/git-atoms/SQL-training-01/blob/master/Query%20%26%20Printscreen/%23com%20Like.sql).
+>
+>
+> <br>
+>
 >
 > + WHERE [kolumna] **IN(konkretne wartości)**
 >
