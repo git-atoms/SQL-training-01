@@ -208,5 +208,12 @@ a tutaj bezpośredni [link do tego zapytania](https://github.com/git-atoms/SQL-t
 >
 >
 > <br>
->
->
+
+<br>
+<br>
+
+
+4. ORDER BY - Sortowanie danych
+
+<br>
+
