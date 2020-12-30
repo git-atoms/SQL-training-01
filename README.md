@@ -217,3 +217,7 @@ a tutaj bezpośredni [link do tego zapytania](https://github.com/git-atoms/SQL-t
 
 <br>
 
+> ### Podsumowanie:
+>
+> + ORDER BY
+> Printscreen [tutaj](https://github.com/git-atoms/SQL-training-01/blob/master/Query%20%26%20Printscreen/%23com%20Order%20By.jpg), oryginalne query [tutaj](https://github.com/git-atoms/SQL-training-01/blob/master/Query%20%26%20Printscreen/%23com%20Order%20By.sql).
