@@ -1,8 +1,7 @@
 SELECT
-
-FirstName as 'Imię'
+FirstName AS 'Imię'
 ,
-LastName as 'Nazwisko'
+LastName AS 'Nazwisko'
 ,
 ModifiedDate
 
@@ -10,6 +9,6 @@ FROM
 Person.Person
 
 ORDER BY
-Nazwisko asc
+Nazwisko ASC
 ,
-ModifiedDate asc
+ModifiedDate ASC
