@@ -1,1 +1,1 @@
-exec sp_help 'HumanResources.Employee'
+EXEC sp_help 'HumanResources.Employee'
