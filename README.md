@@ -248,3 +248,9 @@ ORDER BY [kolumna_1] desc, [kolumna_2] asc
 
 
 1. CAST, CONVERT, STR - typy danych i ich konwersja
+
+<br>
+
+> ### Podsumowanie:
+>
+> +
