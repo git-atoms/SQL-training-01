@@ -1,10 +1,10 @@
 SELECT
-FirstName +' '+ LastName as 'Imi� i nazwisko'
+FirstName +' '+ LastName as 'Imię i nazwisko'
 ,
-MiddleName as 'Drugie imi�'
+MiddleName as 'Drugie imię'
 
 FROM
 [AdventureWorks2014].Person.Person
 
---WHERE
---MiddleName IS NOT NULL
+WHERE
+MiddleName IS NOT NULL
