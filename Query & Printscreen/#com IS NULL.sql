@@ -1,8 +1,9 @@
-use [AdventureWorks2014]
+SELECT TOP 15
 
+FirstName +' '+ LastName as 'Imię i nazwisko'
+,
+AdditionalContactInfo
 
-select top 10 *
+FROM [AdventureWorks2014].Person.Person
 
-from [AdventureWorks2014].Person.Person
-
-where AdditionalContactInfo is null
+WHERE AdditionalContactInfo IS NULL
