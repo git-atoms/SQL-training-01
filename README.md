@@ -204,7 +204,7 @@ a tutaj bezpośredni [link do tego zapytania](https://github.com/git-atoms/SQL-t
 >
 > + WHERE [kolumna] **is nul** / **is not null**
 >
-> Printscreen z opisem [tutaj](), a plik z zapytaniem SQL do tego przykładu [tutaj]().
+> Printscreen z opisem IS NULL [tutaj](), plik z zapytaniem SQL do tego przykładu [tutaj](), a screen z IS NOT NULL [tutaj]() i jego SQL query [tutaj]().
 >
 >
 > <br>
