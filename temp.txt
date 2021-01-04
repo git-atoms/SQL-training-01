@@ -1,7 +1,0 @@
->
-> Printscreen z opisem [tutaj](), a plik z zapytaniem SQL do tego przykładu [tutaj]().
->
->
-> <br>
->
->
