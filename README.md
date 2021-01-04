@@ -247,4 +247,4 @@ ORDER BY [kolumna_1] desc, [kolumna_2] asc
 <br>
 
 
-1. SELECT - Wybór kolumn
+1. CAST, CONVERT, STR - typy danych i ich konwersja
