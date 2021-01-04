@@ -202,7 +202,7 @@ a tutaj bezpośredni [link do tego zapytania](https://github.com/git-atoms/SQL-t
 > <br>
 >
 >
-> + WHERE [kolumna] is nul/is not null
+> + WHERE [kolumna] **is nul** / **is not null**
 >
 > Printscreen z opisem [tutaj](), a plik z zapytaniem SQL do tego przykładu [tutaj]().
 >
@@ -229,7 +229,4 @@ a tutaj bezpośredni [link do tego zapytania](https://github.com/git-atoms/SQL-t
 ```sql
 ORDER BY [kolumna_1] desc, [kolumna_2] asc
 ```
->to oznacza, że **[kolumna_1]** będzie sortowana malejąco ale jeśli znajdzie się w niej kilka takich samych wyszukań (np. kilka takich samych stanowisk pracy) to w **[kolumna_2]** będą one posortowane rosnąco.
->
-> Printscreen z opisem [tutaj](https://github.com/git-atoms/SQL-training-01/blob/master/Query%20%26%20Printscreen/%23com%20Order%20By%20wielopoziomowe.jpg), a plik z zapytaniem SQL do tego przykładu [tutaj](https://github.com/git-atoms/SQL-training-01/blob/master/Query%20%26%20Printscreen/%23com%20Order%20By%20wielopoziomowe.sql).
->
+>to oznacza, że [kolumna_1] będzie sortowana malejąco ale jeśli znajdzie się w niej kilka takich samych wyszukań (np. kilka takich samych stanowisk pracy) to w [kolumna_2] będą one posortowane rosnąco.
