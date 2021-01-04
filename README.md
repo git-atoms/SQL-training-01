@@ -202,9 +202,9 @@ a tutaj bezpośredni [link do tego zapytania](https://github.com/git-atoms/SQL-t
 > <br>
 >
 >
-> + WHERE [kolumna] **is nul** / **is not null**
+> + WHERE [kolumna] **IS NULL** / **IS NOT NULL**
 >
-> Printscreen z opisem IS NULL [tutaj](), plik z zapytaniem SQL do tego przykładu [tutaj](), a screen z IS NOT NULL [tutaj]() i jego SQL query [tutaj]().
+> Printscreen z opisem IS NULL [tutaj](https://github.com/git-atoms/SQL-training-01/blob/master/Query%20%26%20Printscreen/%23com%20IS%20NULL.jpg), plik z zapytaniem SQL do tego przykładu [tutaj](https://github.com/git-atoms/SQL-training-01/blob/master/Query%20%26%20Printscreen/%23com%20IS%20NULL.sql), a screen z IS NOT NULL [tutaj](https://github.com/git-atoms/SQL-training-01/blob/master/Query%20%26%20Printscreen/%23com%20Where%20IsNotNull.jpg) i jego SQL query [tutaj](https://github.com/git-atoms/SQL-training-01/blob/master/Query%20%26%20Printscreen/%23com%20Where%20IsNotNull.sql).
 >
 >
 > <br>
