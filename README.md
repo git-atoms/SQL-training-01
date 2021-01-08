@@ -253,4 +253,4 @@ ORDER BY [kolumna_1] desc, [kolumna_2] asc
 
 > ### Podsumowanie:
 >
-> +
+> + 
