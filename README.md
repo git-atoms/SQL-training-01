@@ -256,3 +256,7 @@ ORDER BY [kolumna_1] desc, [kolumna_2] asc
 > + **DATEDIFF** - zwraca różnicę w latach, kwartałach, miesiącach, itd...
 >
 >Printscreen z opisem [tutaj](https://github.com/git-atoms/SQL-training-01/blob/master/Query%20%26%20Printscreen/%23com%20DATEDIFF.jpg), a plik z zapytaniem SQL do tego przykładu [tutaj](https://github.com/git-atoms/SQL-training-01/blob/master/Query%20%26%20Printscreen/%23com%20DATEDIFF.sql)
+>
+> <br>
+>
+> A [tutaj](https://github.com/git-atoms/SQL-training-01/blob/master/Query%20%26%20Printscreen/%23com%20DATEDIFF%20a.jpg) jeszcze inny screen i jego SQL [zapytanie](https://github.com/git-atoms/SQL-training-01/blob/master/Query%20%26%20Printscreen/%23com%20DATEDIFF%20a.sql) do bardziej rozbudowanego przykładu, w którym odejmuję od siebie wyniki innych odejmowań (różnice z innych operacji odejmowania).
