@@ -222,8 +222,8 @@ a tutaj bezpośredni [link do tego zapytania](https://github.com/git-atoms/SQL-t
 > + ORDER BY
 > Printscreen [tutaj](https://github.com/git-atoms/SQL-training-01/blob/master/Query%20%26%20Printscreen/%23com%20Order%20By.jpg), oryginalne query [tutaj](https://github.com/git-atoms/SQL-training-01/blob/master/Query%20%26%20Printscreen/%23com%20Order%20By.sql).
 >
-<br>
-
+><br>
+>
 > Ale jeśli jest np.
 <br>
 
@@ -253,7 +253,32 @@ ORDER BY [kolumna_1] desc, [kolumna_2] asc
 
 > ### Podsumowanie:
 >
-> + **DATEDIFF** - zwraca różnicę w latach, kwartałach, miesiącach, itd...
+```sql
+--- Wyświetla typy danych w danej tabeli
+exec sp_help 'Nazwa_tabeli'
+
+```
+
+<br>
+
+>
+>Poznane dotychczas rodzaje danych: char (tekst), int (liczba stała), float (liczba zmienno przecinkowa), date (data) /datetime (data i godzina).
+>
+>
+><br>
+>
+> + **GETDATE** - zwraca datę w formacie RRRR-MM-DD GG:MM:SS.sss <br>
+Chociaż zawsze można to ograniczyć do samej daty:
+
+```sql
+
+SELECT cast(getdate() as date)
+
+```
+>
+><br>
+>
+>+ **DATEDIFF** - zwraca różnicę w latach, kwartałach, miesiącach, itd...
 >
 >Printscreen z opisem [tutaj](https://github.com/git-atoms/SQL-training-01/blob/master/Query%20%26%20Printscreen/%23com%20DATEDIFF.jpg), a plik z zapytaniem SQL do tego przykładu [tutaj](https://github.com/git-atoms/SQL-training-01/blob/master/Query%20%26%20Printscreen/%23com%20DATEDIFF.sql)
 >
