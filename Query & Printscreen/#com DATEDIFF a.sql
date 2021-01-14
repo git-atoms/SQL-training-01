@@ -1,4 +1,4 @@
-rselect
+select
 
 s.FirstName +' '+ s.LastName as 'Imiê i nazwisko'
 ,
@@ -35,4 +35,3 @@ join
 [AdventureWorks2014].HumanResources.Employee as hr
 on
 hr.BusinessEntityID=s.BusinessEntityID
-
