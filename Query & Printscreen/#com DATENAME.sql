@@ -1,10 +1,10 @@
 select
 
-s.FirstName +' '+ s.LastName as 'Imiê i nazwisko'
+s.FirstName +' '+ s.LastName as 'ImiÄ™ i nazwisko'
 ,hr.HireDate as 'Data zatrudnienia'
-,DATENAME(weekday, hr.HireDate) as 'Jaki to dzieñ tygodnia?'
+,DATENAME(weekday, hr.HireDate) as 'Jaki to dzieÅ„ tygodnia?'
 ,DATEDIFF(year, hr.HireDate, CAST(getdate() as date)) as 'Ile lat u nas pracuje?'
-,DATEDIFF(year, cast(hr.BirthDate as date), CAST(hr.HireDate as date)) as 'Ile mia³ lat jak podj¹³ pracê?'
+,DATEDIFF(year, cast(hr.BirthDate as date), CAST(hr.HireDate as date)) as 'Ile miaÅ‚ lat jak podjÄ…Å‚ pracÄ™?'
 
 
 from
