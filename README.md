@@ -274,6 +274,8 @@ EXEC sp_help 'HumanResources.Employee'
 >
 > + **GETDATE** - zwraca datę w formacie RRRR-MM-DD GG:MM:SS.ms <br>
 Chociaż zawsze można to ograniczyć do samej daty:
+>
+><br>
 
 ```sql
 
@@ -313,3 +315,17 @@ DATEDIFF([datepart] , [data początkowa/kolumna] , [data końcowa/kolumna])
 > + **DATENAME** - zwraca typ danych nvarchar (np. 'weekday' poda Friday).
 >
 >Printscreen z przykładem [tutaj](https://github.com/git-atoms/SQL-training-01/blob/master/Query%20%26%20Printscreen/%23com%20DATENAME.jpg), a zapytanie SQL [tutaj](https://github.com/git-atoms/SQL-training-01/blob/master/Query%20%26%20Printscreen/%23com%20DATENAME.sql)
+>
+>
+><br>
+>
+>
+> + **STR** - 
+>
+><br>
+
+```sql
+
+STR ([wyrażenie/kolumna], [długość podanego wyniku], [ilość miejsc po przecinku]) 
+
+```
