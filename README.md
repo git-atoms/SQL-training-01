@@ -213,7 +213,7 @@ a tutaj bezpośredni [link do tego zapytania](https://github.com/git-atoms/SQL-t
 <br>
 
 
-4. ORDER BY - Sortowanie danych
+5. ORDER BY - Sortowanie danych
 
 <br>
 
@@ -292,6 +292,7 @@ SELECT cast(getdate() as date)
 >
 >+ **DATEDIFF** - zwraca różnicę w latach, kwartałach, miesiącach, itd...
 >
+><br>
 ```sql
 
 -- Zwraca różnicę w datach
