@@ -258,13 +258,17 @@ ORDER BY [kolumna_1] desc, [kolumna_2] asc
 -- Wyświetla typy danych w danej tabeli
 exec sp_help 'Nazwa_tabeli'
 
-```
+-- np.
+EXEC sp_help 'HumanResources.Employee'
 
+```
+>Printscreen z przykładem [tutaj](https://github.com/git-atoms/SQL-training-01/blob/master/Query%20%26%20Printscreen/%23com%20Exec%20SP_help.jpg)
+>
+><br>
+>
 <br>
 
->
 >Poznane dotychczas rodzaje danych: char (tekst), int (liczba stała), float (liczba zmienno przecinkowa), date (data) /datetime (data i godzina).
->
 >
 ><br>
 >
@@ -306,4 +310,6 @@ DATEDIFF([datepart] , [data początkowa/kolumna] , [data końcowa/kolumna])
 ><br>
 ><br>
 >
-> + **DATENAME** - zwraca typ danych nvarchar.
+> + **DATENAME** - zwraca typ danych nvarchar (np. 'weekday' poda Friday).
+>
+>Printscreen z przykładem [tutaj](https://github.com/git-atoms/SQL-training-01/blob/master/Query%20%26%20Printscreen/%23com%20DATENAME.jpg), a zapytanie SQL [tutaj](https://github.com/git-atoms/SQL-training-01/blob/master/Query%20%26%20Printscreen/%23com%20DATENAME.sql)
