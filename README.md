@@ -321,12 +321,18 @@ DATEDIFF([datepart] , [data początkowa/kolumna] , [data końcowa/kolumna])
 ><br>
 >
 >
-> + **STR** - 
+> + **STR** - zwraca typ danych varchar
 >
 ><br>
 
 ```sql
 
 STR ([wyrażenie/kolumna], [długość podanego wyniku], [ilość miejsc po przecinku]) 
+
+-- np.
+SELECT STR(123.45, 6, 1)
+
+-- da nam wynik
+123.5
 
 ```
