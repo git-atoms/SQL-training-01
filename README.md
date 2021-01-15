@@ -254,7 +254,8 @@ ORDER BY [kolumna_1] desc, [kolumna_2] asc
 > ### Podsumowanie:
 >
 ```sql
---- Wyświetla typy danych w danej tabeli
+
+-- Wyświetla typy danych w danej tabeli
 exec sp_help 'Nazwa_tabeli'
 
 ```
@@ -267,10 +268,15 @@ exec sp_help 'Nazwa_tabeli'
 >
 ><br>
 >
-> + **GETDATE** - zwraca datę w formacie RRRR-MM-DD GG:MM:SS.sss <br>
+> + **GETDATE** - zwraca datę w formacie RRRR-MM-DD GG:MM:SS.ms <br>
 Chociaż zawsze można to ograniczyć do samej daty:
 
 ```sql
+
+/*
+Zamienia bieżącą datę i godzinę w formacie [RRRR-MM-DD GG:MM:SS.ms]
+na datę [RRRR-MM-DD]
+*/
 
 SELECT cast(getdate() as date)
 
@@ -280,6 +286,13 @@ SELECT cast(getdate() as date)
 >
 >+ **DATEDIFF** - zwraca różnicę w latach, kwartałach, miesiącach, itd...
 >
+```sql
+
+-- Zwraca różnicę w datach
+DATEDIFF([datepart] , [data początkowa/kolumna] , [data końcowa/kolumna])
+
+```
+>
 >Printscreen z opisem [tutaj](https://github.com/git-atoms/SQL-training-01/blob/master/Query%20%26%20Printscreen/%23com%20DATEDIFF.jpg), a plik z zapytaniem SQL do tego przykładu [tutaj](https://github.com/git-atoms/SQL-training-01/blob/master/Query%20%26%20Printscreen/%23com%20DATEDIFF.sql)
 >
 >
@@ -287,4 +300,4 @@ SELECT cast(getdate() as date)
 >
 ><br>
 >
-> + **DATENAME**
+> + **DATENAME** - zwraca typ danych nvarchar.
