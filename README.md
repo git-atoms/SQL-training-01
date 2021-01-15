@@ -336,3 +336,8 @@ SELECT STR(123.45, 6, 1)
 123.5
 
 ```
+<br>
+
+<br>
+
+2. ISNUMERIC, ISDATE, ISNULL - Walidacja danych
