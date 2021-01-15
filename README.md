@@ -293,11 +293,17 @@ DATEDIFF([datepart] , [data początkowa/kolumna] , [data końcowa/kolumna])
 
 ```
 >
+> Gdzie [datepart] to m.in. 'year', 'quarter', 'month', 'dayofyear', 'day', 'week', 'hour'
+>
+><br>
+>
+>
 >Printscreen z opisem [tutaj](https://github.com/git-atoms/SQL-training-01/blob/master/Query%20%26%20Printscreen/%23com%20DATEDIFF.jpg), a plik z zapytaniem SQL do tego przykładu [tutaj](https://github.com/git-atoms/SQL-training-01/blob/master/Query%20%26%20Printscreen/%23com%20DATEDIFF.sql)
 >
 >
 > A [tutaj](https://github.com/git-atoms/SQL-training-01/blob/master/Query%20%26%20Printscreen/%23com%20DATEDIFF%20a.jpg) jeszcze inny screen i jego SQL [zapytanie](https://github.com/git-atoms/SQL-training-01/blob/master/Query%20%26%20Printscreen/%23com%20DATEDIFF%20a.sql) do bardziej rozbudowanego przykładu, w którym odejmuję od siebie wyniki innych odejmowań (różnice z innych operacji odejmowania).
 >
+><br>
 ><br>
 >
 > + **DATENAME** - zwraca typ danych nvarchar.
