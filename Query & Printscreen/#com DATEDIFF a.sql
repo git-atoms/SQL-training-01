@@ -1,6 +1,6 @@
 select
 
-s.FirstName +' '+ s.LastName as 'Imiê i nazwisko'
+s.FirstName +' '+ s.LastName as 'ImiÄ™ i nazwisko'
 ,
 ad.AddressLine1 as 'Ulica'
 ,
@@ -13,13 +13,13 @@ DATEDIFF(year, hr.BirthDate, CAST(getdate() as date)) as 'Ile ma lat?'
 hr.JobTitle as 'Stanowisko'
 ,
 hr.
-VacationHours as 'Pozosta³o urlopu'
+VacationHours as 'PozostaÅ‚o urlopu'
 ,
 hr.HireDate as 'Data zatrudnienia'
 ,
-DATEDIFF(year, hr.HireDate, CAST(getdate() as date)) as 'Ile ju¿ u nas pracuje?'
+DATEDIFF(year, hr.HireDate, CAST(getdate() as date)) as 'Ile juÅ¼ u nas pracuje?'
 ,
-DATEDIFF(year, cast(hr.BirthDate as date), CAST(hr.HireDate as date)) as 'Ile mia³ lat jak podj¹³ pracê?'
+DATEDIFF(year, cast(hr.BirthDate as date), CAST(hr.HireDate as date)) as 'Ile miaÅ‚ lat jak podjÄ…Å‚ pracÄ™?'
 
 
 
