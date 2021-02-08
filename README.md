@@ -335,9 +335,12 @@ SELECT STR(123.45, 6, 1)
 -- da nam wynik
 123.5
 
+-- bo 6 to była MAKSYMALNA długość wyrażenia, jaką mogło nam wyświetlić, a liczy jako miejsce wszystko: zarówno cyfrę, jak i przecinek.
+
 ```
 <br>
 
 <br>
 
 2. ISNUMERIC, ISDATE, ISNULL - Walidacja danych
+
