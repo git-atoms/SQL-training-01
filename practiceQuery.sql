@@ -21,6 +21,7 @@ FirstName + ' ' + LastName as Employee
 ,JobTitle
 ,BirthDate
 ,HireDate
+,VacationHours
 ,cast(VacationHours as float)/8 as 'Pozosta³o dni urlopu'
 
 from Person.Person as s
@@ -29,4 +30,9 @@ HumanResources.Employee as e
 on
 e.BusinessEntityID=s.BusinessEntityID
 
-order by HireDate asc
+where
+--HireDate >= '20080124'
+--and HireDate <= '20090124'
+HireDate between '20080124' and '20090124'
+
+order by HireDate desc
