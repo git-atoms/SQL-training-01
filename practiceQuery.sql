@@ -2,9 +2,13 @@ select
 FirstName + ' ' + LastName as Employee
 ,JobTitle
 ,BirthDate
+,datediff(year, BirthDate, cast(GETDATE() as date)) as "Wiek pracownika"
 ,HireDate
+,DATEDIFF(year, HireDate, cast(getdate() as date)) as "Sta¿ pracy w latach"
 ,VacationHours
-,cast(VacationHours as float)/8 as 'Pozosta³o dni urlopu'
+,cast(VacationHours as float)/8 as "Pozosta³o dni urlopu"
+
+
 
 from Person.Person as s
 join
@@ -19,4 +23,4 @@ where
 --JobTitle like '[b-c]%'
 VacationHours between '8' and '80'
 
-order by [Pozosta³o dni urlopu] asc
+order by "Pozosta³o dni urlopu" desc
