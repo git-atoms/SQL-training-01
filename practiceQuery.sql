@@ -16,6 +16,7 @@ HumanResources.Employee as e
 on
 e.BusinessEntityID=s.BusinessEntityID
 
+
 where
 --HireDate >= '20080124'
 --and HireDate <= '20090124'
