@@ -7,12 +7,6 @@
 --;
 
 
---select distinct
---nullif(MaritalStatus, Gender) as 'Column'
+
+--select isdate(cast(BirthDate as char))
 --from HumanResources.Employee
---where
---'Column' is not null
---order by 1 desc
---;
-
-
