@@ -7,6 +7,5 @@
 --;
 
 
-
 --select isdate(cast(BirthDate as char))
 --from HumanResources.Employee
