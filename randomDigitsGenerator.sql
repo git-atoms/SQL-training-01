@@ -1,0 +1,1 @@
+select round(RAND()*(99-1), 0)+1
