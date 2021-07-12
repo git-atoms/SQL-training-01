@@ -1,7 +1,7 @@
-select
-sum(VacationHours) as "Suma wszystkich godzin urlopu"
-from HumanResources.Employee
-;
+--select
+--sum(VacationHours) as "Suma wszystkich godzin urlopu"
+--from HumanResources.Employee
+--;
 
 select
 JobTitle,
