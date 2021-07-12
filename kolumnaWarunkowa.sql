@@ -12,3 +12,14 @@ from Production.Culture
 order by Obcokrajowcy asc
 ;
 
+
+select
+Description,
+DiscountPct,
+
+	case 
+	when DiscountPct < 0.1 then 'Ma³a obni¿ka'
+	when DiscountPct < 0.5 then 'Nieco wiêcej'
+	end as "Rabat"
+
+from Sales.SpecialOffer
