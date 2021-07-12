@@ -1,4 +1,4 @@
-select distinct Name,
+select Name,
 
 	case name
 	when 'french' then 'Francuz' --nie jest CS
@@ -10,3 +10,5 @@ select distinct Name,
 
 from Production.Culture
 order by Obcokrajowcy asc
+;
+
