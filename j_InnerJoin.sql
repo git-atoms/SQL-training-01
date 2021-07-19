@@ -4,7 +4,12 @@ select *
 from
 HumanResources.EmployeeDepartmentHistory as dh
 
-inner join --albo sam JOIN (te¿ zadzia³a)
+inner join
 HumanResources.Shift as s
 on
-dh.ShiftID=s.ShiftID
+s.ShiftID=dh.ShiftID
+
+join --sam JOIN te¿ zadzia³a tak samo jak INNER
+Person.Person as pp
+on
+pp.BusinessEntityID=dh.BusinessEntityID
