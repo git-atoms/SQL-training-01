@@ -1,4 +1,4 @@
-/*RIGHT JOIN (LEFT OUTER JOIN)
+/*RIGHT JOIN (RIGHT OUTER JOIN)
 Zwraca wszystkie rekordy z tabeli drugiej i tylko te pasuj¹ce z tabeli pierwszej.
 */
 
