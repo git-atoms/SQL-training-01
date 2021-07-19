@@ -1,5 +1,5 @@
 /*INNER JOIN (nie trzeba pisaæ INNER, sam JOIN wystarczy).
-£¹czy tylko te dane, które maj¹ swój odpowiednik w drugiej tabeli/widoku.
+£¹czy tylko te dane, które maj¹ swój odpowiednik w obu tabelach.
 */
 
 select *
