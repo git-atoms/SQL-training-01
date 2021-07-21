@@ -5,7 +5,6 @@
 select *
 from
 HumanResources.EmployeeDepartmentHistory as dh
-
 inner join
 HumanResources.Shift as s
 on
