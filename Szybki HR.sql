@@ -1,4 +1,4 @@
-create view SzybkiHR as
+--create view SzybkiHR as
 select
 pp.FirstName +' '+pp.LastName as "Imiê i nazwisko",
 hre.BirthDate as "Data urodzin",
