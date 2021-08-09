@@ -1,3 +1,4 @@
+create view SzybkiHR as
 select
 pp.FirstName +' '+pp.LastName as "Imiê i nazwisko",
 hre.BirthDate as "Data urodzin",
@@ -28,4 +29,6 @@ HumanResources.vEmployeeDepartmentHistory as hrvedh
 on
 hrvedh.BusinessEntityID=pp.BusinessEntityID
 
-order by pp.FirstName
+--order by
+--"Imiê i nazwisko"
+--pp.FirstName
