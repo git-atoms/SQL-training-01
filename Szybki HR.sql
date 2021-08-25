@@ -2,7 +2,7 @@
 "create view SzybkiHR as" stworzy widok "SzybkiHR
 */
 
---create view SzybkiHR as
+create view SzybkiHR as
 
 select
 pp.FirstName +' '+pp.LastName as "Imiê i nazwisko",
