@@ -19,7 +19,7 @@ DATEDIFF(year, hrvedh.StartDate,GETDATE()) as "Lat pracy"
 /*
 "into HumanResources.SzybkiHR" stworzy tabelê "SzybkiHR
 */
-into HumanResources.SzybkiHR
+--into HumanResources.SzybkiHR
 
 
 from Person.Person as pp
