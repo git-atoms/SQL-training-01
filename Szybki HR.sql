@@ -1,8 +1,7 @@
 /*
 "create view SzybkiHR as" stworzy widok "SzybkiHR
 */
-
-create view SzybkiHR as
+--create view SzybkiHR as
 
 select
 pp.FirstName +' '+pp.LastName as "Imiê i nazwisko",
@@ -17,14 +16,13 @@ hrve.PhoneNumber,
 hrve.AddressLine1,
 hrvedh.StartDate as "Data zatrudnienia",
 DATEDIFF(year, hrvedh.StartDate,GETDATE()) as "Lat pracy"
-from Person.Person as pp
 /*
 "into HumanResources.SzybkiHR" stworzy tabelê "SzybkiHR
 */
+into HumanResources.SzybkiHR
 
---into HumanResources.SzybkiHR
 
-
+from Person.Person as pp
 inner join
 HumanResources.Employee as hre
 on
@@ -42,3 +40,4 @@ order by
 "Imiê i nazwisko" --sortowanie opóŸnia czas odpowiedzi na zapytanie
 --,pp.FirstName
 --,pp.LastName
+
