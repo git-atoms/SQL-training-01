@@ -9,5 +9,5 @@
 --;
 
 select BirthDate as "Data urodzin",
-datename(MONTH, BirthDate) + ' ' +datename(weekday, BirthDate) as "Jaki to by³ miesi¹c i dzieñ tygodnia?"
+datename(MONTH, BirthDate) + ' (' +datename(weekday, BirthDate)+')' as "Jaki to by³ miesi¹c i dzieñ tygodnia?"
 from HumanResources.Employee
