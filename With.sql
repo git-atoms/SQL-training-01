@@ -15,8 +15,9 @@ on
 ve.BusinessEntityID=s.BusinessEntityID)
 
 select top 3
-[Imiê i nazwisko],
+Sale.[Imiê i nazwisko],
 max(SalesYTD) as "Najwy¿sza sprzeda¿"
+
 from Sale
 group by [Imiê i nazwisko]
 order by 2 desc
