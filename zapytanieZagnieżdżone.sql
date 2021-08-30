@@ -1,5 +1,6 @@
-select top 3
+select top 5
 sale.[Imiê i nazwisko],
+sale.SalesYTD,
 max(salesytd) as "Najwy¿sza sprzeda¿",
 min(salesytd) as "Najni¿sza sprzeda¿",
 AVG(salesytd) as "Œrednia sprzeda¿"
@@ -21,5 +22,9 @@ HumanResources.vEmployee as ve
 on
 ve.BusinessEntityID=s.BusinessEntityID) as Sale
 
-group by sale.[Imiê i nazwisko]
-order by 2 desc
+group by
+Sale.[Imiê i nazwisko],
+Sale.SalesYTD
+order by
+3 desc,
+1 asc
