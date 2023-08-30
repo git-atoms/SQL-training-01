@@ -11,4 +11,4 @@ group by JobTitle
 --having sum(VacationHours) > 17
 having (JobTitle) > 'c'  --(wiêksze od oznacza tu wiêksze-równe)
 --order by [Suma godzin urlopu dla stanowiska] asc
-order by JobTitle asc
+order by [Suma godzin urlopu dla stanowiska] desc
